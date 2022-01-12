@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&family=Poppins:wght@500&family=Raleway:wght@500;700&family=Roboto+Slab&display=swap');
+
+/* common style */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color:#FFFFFF;
+    width: 870px;
+    padding: 30px;
+    
+}
+hr{
+    border: 1px solid #d1d1d1;
+}
+/* top players style */
+.top-players{
+    margin-bottom: 30px;
+}
+
+.section-title{
+    color: #562EFF;
+    font-size: 24px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+
